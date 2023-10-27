@@ -29,13 +29,8 @@ else{
     echo "All fields reqiured";
 }
 }
+?>
 <br><br>
     <button>
    <a href="index.html">Back</a>
     </button>
-
-
-
-
-
-?>
