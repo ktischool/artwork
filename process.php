@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
 
        $email=$_POST['email']; 
    
-    $query="INSERT INTO  art_artist(email) values('email')";
+    $query="INSERT INTO  art_artist(email) values('$email')";
     
     $run= mysqli_query($conn,$query) or die (mysqli_error());
 
