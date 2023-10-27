@@ -25,6 +25,7 @@ else{
     echo "NOT REGISTER SUCESSFULLY";
 }
 }
+
 else{
     echo "All fields reqiured";
 }
